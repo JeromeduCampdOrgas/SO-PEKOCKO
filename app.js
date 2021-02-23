@@ -14,7 +14,6 @@ const app = express();
 
 app.use(helmet());
 
-
 /*mongoose.connect('mongodb+srv://' + process.env.DB_USER +':' + process.env.DB_PASS + '@' + process.env.DB_URI + '/' + process.env.DB_NAME + '?retryWrites=true&w=majority',
   { useNewUrlParser: true,
     useUnifiedTopology: true })
