@@ -12,12 +12,10 @@ exports.createSauce = (req, res, next) => {
      ...sauceObject,
      imageUrl: `${req.protocol}://${req.get('host')}/images/${req.file.filename}`
     });
-    sauce.save().then(() => {
-        res.status(201).json({message: 'Post saved successfully!'});
-      }
-    ).catch(error => {res.status(400).json({error: error});
-      }
-    );
+    //enregistrement en base
+    sauce.save()
+    .then(() => {res.status(201).json({message: 'Post saved successfully!'});})
+    .catch(error => {res.status(400).json({error: error});});
   };
   
   //Permet d'obtenir une sauce

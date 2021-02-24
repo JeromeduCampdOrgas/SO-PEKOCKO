@@ -1,7 +1,7 @@
 const http = require('http');
 const app = require('./app');
 
-const cors = require('cors')
+const cors = require('cors');
 
 app.use(cors()) // Use this after the variable declaration
 
