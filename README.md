@@ -12,3 +12,13 @@ La marque So Pekocko, qui crée des sauces piquantes, connaît un franc succès,
 L’entreprise souhaite désormais développer une application d’évaluation de ses sauces piquantes, appelée “Piquante”.
 
 Même si l’application deviendra peut-être un magasin en ligne dans un futur proche, Sophie, la product owner de So Pekocko, a décidé que le MVP du projet sera une application web permettant aux utilisateurs d’ajouter leurs sauces préférées et de liker ou disliker les sauces ajoutées par les autres utilisateurs.
+
+<h3>Commencer</h3>
+<ol>
+    <li>Cloner le repo</li>
+    <li>Sélectionner dwj-projet6 (frontend): cd dwj-projet6</li>
+    <li>Lancer l'application: ng serve</li>
+    <li>Sélectionner backend : cd backend</li>
+    <li>Lancer le serveur: node server</li>
+    <li>Dans votre navigateur: localhost:4200</li>
+</ol> 
