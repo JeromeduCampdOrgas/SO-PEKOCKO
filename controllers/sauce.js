@@ -1,7 +1,6 @@
 //Récupération du schéma 
 const Sauce = require('../models/sauce');
 const fs = require('fs');
-const sauce = require('../models/sauce');
 
 //Permet l'implémentation d'une nouvelle sauce
 exports.createSauce = (req, res, next) => {
