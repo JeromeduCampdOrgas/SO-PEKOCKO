@@ -22,3 +22,7 @@ Même si l’application deviendra peut-être un magasin en ligne dans un futur 
     <li>Lancer le serveur: node server</li>
     <li>Dans votre navigateur: localhost:4200</li>
 </ol> 
+
+<h3>Commentaire</h3>
+Sur ce projet, seul le backend a été développé par mes soins. Le frontend était fourni, et est disponible sur github: </br>
+https://github.com/OpenClassrooms-Student-Center/dwj-projet6
